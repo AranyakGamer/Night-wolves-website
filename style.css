@@ -1,0 +1,33 @@
+#body
+{
+    text-align: center;
+}
+#p {
+border-color:#689F38;
+border: 1px ;
+border-radius: 80px;
+padding: 5px;
+width: 450px; 
+} 
+#g 
+{
+    background: linear-gradient( #291f27 0%,#080008 100%);
+}  
+#d
+{
+    position:fixed ; 
+    color : #6c757d ;   
+}
+.copy_right_footer
+{  
+    background: linear-gradient( #373536 0%,#000 100%);
+position:fixed ; 
+color : #6c757d ;
+bottom : 0 ; 
+width : 100% ;
+font-size : 18px ; 
+background-color:whitesmoke ; 
+line-height : 3;
+text-align :center ;
+text-shadow :  5px 5px 5px rgb(151,149,149) ; 
+}
