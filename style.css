@@ -1,33 +1,81 @@
 #body
 {
-    text-align: center;
+    text-align: center; 
+    height : 3000; 
+    
+    justify-items: center;
 }
 #p {
 border-color:#689F38;
 border: 1px ;
 border-radius: 80px;
 padding: 5px;
-width: 450px; 
+width: 450px; justify-items: center;
 } 
 #g 
 {
-    background: linear-gradient( #291f27 0%,#080008 100%);
+    background: linear-gradient( #291f27 0%,#080008 100%); 
+    justify-items: center;
 }  
 #d
-{
-    position:fixed ; 
-    color : #6c757d ;   
+{   
+    text-shadow: 1px 1px 1px black ;
+    justify-items: center;
+    position:sticky ; 
+    color : #2a669b ;   
 }
 .copy_right_footer
-{  
+{   
+    text-shadow: 1px 1px 1px black ;
     background: linear-gradient( #373536 0%,#000 100%);
 position:fixed ; 
-color : #6c757d ;
+color : #216fb3 ;
 bottom : 0 ; 
 width : 100% ;
 font-size : 18px ; 
 background-color:whitesmoke ; 
 line-height : 3;
 text-align :center ;
-text-shadow :  5px 5px 5px rgb(151,149,149) ; 
+text-shadow :  5px 5px 5px rgb(122, 79, 79) ;  
+justify-items: center;
+}  
+#topbar
+{   text-shadow: 1px 1px 1px black ;
+    background: linear-gradient( #000000 , rgb(135, 132, 132));
+    box-shadow: inset 20px 20px 10px grey; 
+    border-radius: 50px;
+    justify-items: center;
+} 
+#item 
+{
+    justify-items: center;
+    background: cover
+    ;
+    animation-name: float;
+     animation-duration :5s ;
+    margin-top : 50px ; 
+    animation-iteration-count: infinite;   
+    position: center;
+}  
+@keyframes float 
+{
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 7px); }
+    100%   { transform: translate(0, -0px); }  
+}  
+@keyframes movement {
+    0%   {top: 0px; left: 0px; }
+      50%  {top: 100px; left: 100px;}
+      100% {top: 0px; left: 0px; }
 }
+#img 
+{
+    justify-self: center; 
+    border-radius: 50px;
+} 
+ 
+#boys 
+{ 
+    text-shadow: 1px 1px 1px black ;
+    color:  #2a669b
+}  
